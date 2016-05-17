@@ -1,0 +1,23 @@
+{
+  "name": "botte",
+  "version": "1.0.0",
+  "description": "Telegram Bots R&D using JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IngloriousCoderz/botte.git"
+  },
+  "author": "Matteo Antony Mistretta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IngloriousCoderz/botte/issues"
+  },
+  "homepage": "https://github.com/IngloriousCoderz/botte#readme",
+  "dependencies": {
+    "telegram-node-bot": "^2.1.2"
+  }
+}
