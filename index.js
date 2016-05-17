@@ -1,9 +1,8 @@
 'use strict'
 
-var tg = require('telegram-node-bot')('231087875:AAE9elCEi1peIz-52VAR_p3RdTl2jCYem6c')
+var tg = require('telegram-node-bot')(process.env.UNSACCODIBOT_TOKEN)
 
-tg.router.
-when(['ping'], 'PingController')
+tg.router.when(['ping'], 'PingController')
 
 tg.controller('PingController', ($) => {
   tg.for('ping', () => {
